@@ -3,7 +3,7 @@
 from random import random
 
 def printIntro():
-    print("This program simulates the a game of raquetball between two")
+    print("This program simulates a game of raquetball between two")
     print("players called 'A' and 'B'. The abilities of each player is")
     print("indicated by a probability (a number between 0 and 1) that")
     print("the player wins the point when serving. Player A always")
