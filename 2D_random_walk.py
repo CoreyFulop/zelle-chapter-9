@@ -25,7 +25,7 @@ def simNSteps(n):
 
 def printSummary(d1, d2, n):
     print(f"\nAfter {n} steps, we have moved {d1} units in the first dimension,")
-    print(f"and {d2} units in the second dimension for {d1 + d2} units total.\n")
+    print(f"and {d2} units in the second dimension for {abs(d1) + abs(d2)} units total.\n")
 
     print(f"In a straight line, we have moved {(d1**2 + d2**2)**0.5:.2f} units.")
 
