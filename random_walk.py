@@ -3,7 +3,7 @@
 import random
 
 def printIntro():
-    print("This program simualtes simple random walks, in a single dimension.\n")
+    print("This program simulates simple random walks, in a single dimension.\n")
 
 def getNumberOfWalks():
     m = eval(input("How many walks to simulate: "))
